@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<HistPlugin>
+    <DataSourceNode>
+        <QueueNode>
+            <TimePeriod>
+                <DateTime>20240223T1345</DateTime>
+            </TimePeriod>
+        </QueueNode>
+    </DataSourceNode>
+    <DataSourceNode>
+        <AgentQueueNode>
+            <TimePeriod>
+                <DateTime>20240223T1345</DateTime>
+            </TimePeriod>
+        </AgentQueueNode>
+    </DataSourceNode>
+    <DataSourceNode>
+        <AgentSystemNode>
+            <TimePeriod>
+                <DateTime>20240223T1345</DateTime>
+            </TimePeriod>
+            <AgentSystemData>
+                <AgentValue>graeme.sutherland@scottishpower.com</AgentValue>
+                <ReadyTime>
+                    <duration>
+                        <totalseconds>900</totalseconds>
+                    </duration>
+                </ReadyTime>
+            </AgentSystemData>
+        </AgentSystemNode>
+    </DataSourceNode>
+</HistPlugin>
